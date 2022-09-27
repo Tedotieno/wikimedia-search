@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h4 {
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+}
+
+.page-image-container {
+  margin-bottom: 20px;
+}
+
+.page-container img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.page-text {
+  text-align: left;
+  margin-left: 20px;
+}
